@@ -15,7 +15,6 @@ If you don't have a `.env` file in the root directory, please copy the `.env.exa
 ### 2.2. Make sure you have the proper `Node.js` version installed:
 
 ```
-
 nvm use && nvm install
 
 ```
@@ -24,6 +23,14 @@ nvm use && nvm install
 
 ```
 yarn
+```
+
+### 2.4. Create database structure
+
+To create the `files` table in the database, run:
+
+```
+yarn typeorm migration:run
 ```
 
 ## 3. Development
