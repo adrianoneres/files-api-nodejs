@@ -5,5 +5,5 @@ node_modules
 build/
 coverage/
 dist/
-tmp/
-dist/
+tmp/uploads/*
+!tmp/uploads/.gitkeep
