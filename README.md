@@ -40,7 +40,9 @@ To run tests use:
 yarn test
 ```
 
-## 4. Build
+The API endpoints are available for testing at the context `api-docs`.
+
+## 5. Build
 
 To build project to `dist` directory:
 
