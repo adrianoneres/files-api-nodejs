@@ -7,6 +7,7 @@ import cors from 'cors';
 import { errors } from 'celebrate';
 
 import routes from '@shared/infra/http/routes';
+import '@shared/infra/database/typeorm';
 import { AppError } from '@shared/errors/AppError';
 
 const app = express();
