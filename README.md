@@ -40,7 +40,7 @@ To run tests use:
 yarn test
 ```
 
-The API endpoints are available for testing at the context `api-docs`.
+The API endpoints are available for testing at `/api-docs`.
 
 ## 5. Build
 
